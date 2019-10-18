@@ -46,7 +46,7 @@ public class documentTest {
     @Step("第二步：依次查看每个文章")
     private void searchDocument(List<Integer> idList){
         for(int id:idList){
-            System.out.println(id);
+            //System.out.println(id);
             given().contentType("application/json").param("id",id).when().get("qa/rest/qa/resourceDocument").
                     then().body("data.docId",equalTo(id))
                     .body("message",equalTo("success"));

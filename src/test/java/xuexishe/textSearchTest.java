@@ -82,7 +82,11 @@ public class textSearchTest {
     }
 
     static Stream<String> entityWordProvider() {
-        return Stream.of(getAllEntityWords().toString().replace("[","").replace("]","").replace("\"","").split(","));
+        List<String> result=getAllEntityWords();
+        if(result==null){
+            result=getAllEntityWords();
+        }
+        return Stream.of(result.toString().replace("[","").replace("]","").replace("\"","").split(","));
     }
 
 }

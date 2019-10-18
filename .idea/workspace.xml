@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d44919-b844-4537-ac45-26446e33553b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/177b6e1c-2267-4178-8d8e-20aeff34c517-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2678427f-1c42-4e77-9c1e-7ce40d8146d9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/675722cd-bb0e-4582-a268-11a3260c7905-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f1a20c9f-bab7-4e63-9cce-995456ce00a3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonUtil/JsonSameUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonUtil/JsonSameUtilWithSkipVerfify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonUtil/fastJsonDiff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allureDemo/JsonSameTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allureDemo/XibenTiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allureDemo/apiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allureDemo/testTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0eaac07a-ca48-44bc-85ee-815f3417989f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1ba0c0ce-f6fb-4cb0-a425-58b990ce5140-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/24333a8b-a295-4831-a704-1102a3edbe95-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/48128588-1dce-443c-b26b-5667ad3286b6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7dab5567-f5fb-4e58-82a3-3e3e3bc78fd9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/86a7df63-503c-4142-a661-2ebce91efdd3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/89e10f3f-9501-4448-84a3-750dba28bb5c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a2cdaa59-45f0-4c46-81d4-0bcf01f8de97-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a72613a6-36ef-4824-af02-cb9ce39aa8b9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cd4ac001-eda6-40c6-861c-496487beed54-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d390a2bb-88f0-465f-90e5-03319677072a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f70940ea-b4c1-422e-b0b5-c0925d81fc00-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/junit5-allure.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-09T10-38-24_731.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-09T10-41-41_843.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-09T10-42-00_714.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-allureDemo.JsonSameTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-allureDemo.XibenTiTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-allureDemo.apiTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-allureDemo.testTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/allureDemo.JsonSameTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/allureDemo.XibenTiTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/allureDemo.apiTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/allureDemo.testTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonUtil/JsonSameUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonUtil/JsonSameUtilWithSkipVerfify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonUtil/fastJsonDiff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/junit5-allure.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allureDemo/JsonSameTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allureDemo/XibenTiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allureDemo/apiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allureDemo/testTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xuexishe/documentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xuexishe/documentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xuexishe/textSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xuexishe/textSearchTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

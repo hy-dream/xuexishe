@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: xuexishe.textSearchTest
+-------------------------------------------------------------------------------
+Tests run: 545, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.102 s - in xuexishe.textSearchTest
