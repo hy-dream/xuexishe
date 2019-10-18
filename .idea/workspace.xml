@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7d44919-b844-4537-ac45-26446e33553b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/177b6e1c-2267-4178-8d8e-20aeff34c517-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2678427f-1c42-4e77-9c1e-7ce40d8146d9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/675722cd-bb0e-4582-a268-11a3260c7905-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f1a20c9f-bab7-4e63-9cce-995456ce00a3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonUtil/JsonSameUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonUtil/JsonSameUtilWithSkipVerfify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonUtil/fastJsonDiff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allureDemo/JsonSameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allureDemo/XibenTiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allureDemo/apiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allureDemo/testTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0eaac07a-ca48-44bc-85ee-815f3417989f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1ba0c0ce-f6fb-4cb0-a425-58b990ce5140-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/24333a8b-a295-4831-a704-1102a3edbe95-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/48128588-1dce-443c-b26b-5667ad3286b6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7dab5567-f5fb-4e58-82a3-3e3e3bc78fd9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/86a7df63-503c-4142-a661-2ebce91efdd3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/89e10f3f-9501-4448-84a3-750dba28bb5c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a2cdaa59-45f0-4c46-81d4-0bcf01f8de97-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a72613a6-36ef-4824-af02-cb9ce39aa8b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cd4ac001-eda6-40c6-861c-496487beed54-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d390a2bb-88f0-465f-90e5-03319677072a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f70940ea-b4c1-422e-b0b5-c0925d81fc00-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/junit5-allure.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-09T10-38-24_731.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-09T10-41-41_843.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-09T10-42-00_714.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-allureDemo.JsonSameTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-allureDemo.XibenTiTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-allureDemo.apiTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-allureDemo.testTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/allureDemo.JsonSameTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/allureDemo.XibenTiTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/allureDemo.apiTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/allureDemo.testTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonUtil/JsonSameUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonUtil/JsonSameUtilWithSkipVerfify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonUtil/fastJsonDiff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/junit5-allure.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allureDemo/JsonSameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allureDemo/XibenTiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allureDemo/apiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allureDemo/testTest.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R5jG2Lp66el8JzrAmvFecXFxTB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\test\util" />
+      <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\test" />
+      <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xuexishe" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hanying.apabi\IdeaProjects\yiku" />
+      <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\test\java\allureDemo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.textSearchTest.TestGetAllEntityWordAndSearch (1)">
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="junit5-allure" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="documentTest.TestYWYX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xuexishe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xuexishe" />
+      <option name="MAIN_CLASS_NAME" value="xuexishe.documentTest" />
+      <option name="METHOD_NAME" value="TestYWYX" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textSearchTest.TestGetAllEntityWordAndSearch (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xuexishe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xuexishe" />
+      <option name="MAIN_CLASS_NAME" value="xuexishe.textSearchTest" />
+      <option name="METHOD_NAME" value="TestGetAllEntityWordAndSearch(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textSearchTest.TestGetAllEntityWordAndSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xuexishe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xuexishe" />
+      <option name="MAIN_CLASS_NAME" value="xuexishe.textSearchTest" />
+      <option name="METHOD_NAME" value="TestGetAllEntityWordAndSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textSearchTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xuexishe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xuexishe" />
+      <option name="MAIN_CLASS_NAME" value="xuexishe.textSearchTest" />
+      <option name="METHOD_NAME" value="test1(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textSearchTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xuexishe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xuexishe" />
+      <option name="MAIN_CLASS_NAME" value="xuexishe.textSearchTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <module name="junit5-allure" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.documentTest.TestYWYX" />
+      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWordAndSearch" />
+      <item itemvalue="JUnit.textSearchTest.test1" />
+      <item itemvalue="JUnit.textSearchTest.test1 (1)" />
+      <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWordAndSearch (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWordAndSearch (1)" />
+        <item itemvalue="JUnit.textSearchTest.test1 (1)" />
+        <item itemvalue="JUnit.textSearchTest.test1" />
+        <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWordAndSearch" />
+        <item itemvalue="JUnit.documentTest.TestYWYX" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7d44919-b844-4537-ac45-26446e33553b" name="Default Changelist" comment="" />
+      <created>1568963751769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568963751769</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/xuexishe/documentTest.java</url>
+          <line>77</line>
+          <properties class="xuexishe.documentTest" method="getAllJinJu">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
