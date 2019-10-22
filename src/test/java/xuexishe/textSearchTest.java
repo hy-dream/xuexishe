@@ -31,7 +31,7 @@ public class textSearchTest {
     @ValueSource(strings = { "天气", "演员的自我修养","上海世贸组织", "习近平出席美国总统奥巴马在白宫举行的欢迎仪式并致辞","给北京体育大学2016级研究生冠军班全体学生的回信" })
     @DisplayName("测试搜索非实体词")
     @Tag("demo")
-    @Order(2)
+    @Order(5)
     void TestNotEntityWord(String candidate){
         given().contentType("application/json").param("text",candidate).when().get("algorithmic/textSearch").
                 then().body("message",equalTo("success"))
@@ -43,6 +43,7 @@ public class textSearchTest {
     @MethodSource("entityWordProvider")
     @DisplayName("获取所有的实体词并搜索")
     @Tag("demo")
+    @Order(1)
     void TestGetAllEntityWordAndSearch(String word){
         //System.out.println(word);
         given().log().all().contentType("application/json").param("text", word).when().get("algorithmic/textSearch").
@@ -75,6 +76,7 @@ public class textSearchTest {
     ,"为什么要坚持房子是用来住的不是用来炒的定位？","如何构建国土空间开发保护制度？","为何加强纪律建设要坚持惩前毖后治病救人，运用监督执纪“四种形态”，抓早抓小防微杜渐？"})
     @DisplayName("测试问答对")
     @Tag("demo")
+    @Order(3)
     void TestQA(String qa){
         given().contentType("application/json").param("text",qa).when().get("algorithmic/textSearch").
                 then().body("message",equalTo("success"))
@@ -83,10 +85,20 @@ public class textSearchTest {
 
     static Stream<String> entityWordProvider() {
         List<String> result=getAllEntityWords();
-        if(result==null){
-            result=getAllEntityWords();
-        }
         return Stream.of(result.toString().replace("[","").replace("]","").replace("\"","").split(","));
     }
 
+    @Test
+    @DisplayName("获取所有的实体词列表")
+    @Order(0)
+    void TestGetAllEntityWords(){
+        JSONObject body=new JSONObject();
+        body.put("pageNo",1);
+        body.put("pageSize",600);
+        body.put("queryStr","");
+        body.put("superClassId","思想概念");
+
+        given().log().all().contentType("application/json").body(body).when().post("/refining/rest/ont/pageIndividualByClass").
+                then().log().all().body("message",equalTo("success")).body("data.source",not(hasSize(0)));
+    }
 }

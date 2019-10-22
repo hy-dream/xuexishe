@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d44919-b844-4537-ac45-26446e33553b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xuexishe/documentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xuexishe/documentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xuexishe/textSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xuexishe/textSearchTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,29 +69,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.textSearchTest.TestGetAllEntityWordAndSearch (1)">
+  <component name="RunManager" selected="JUnit.textSearchTest.TestGetAllEntityWords">
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="junit5-allure" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="documentTest.TestYWYX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="allure-junit5-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xuexishe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xuexishe" />
-      <option name="MAIN_CLASS_NAME" value="xuexishe.documentTest" />
-      <option name="METHOD_NAME" value="TestYWYX" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,6 +107,22 @@
       <option name="PACKAGE_NAME" value="xuexishe" />
       <option name="MAIN_CLASS_NAME" value="xuexishe.textSearchTest" />
       <option name="METHOD_NAME" value="TestGetAllEntityWordAndSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textSearchTest.TestGetAllEntityWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xuexishe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xuexishe" />
+      <option name="MAIN_CLASS_NAME" value="xuexishe.textSearchTest" />
+      <option name="METHOD_NAME" value="TestGetAllEntityWords" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,20 +180,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.documentTest.TestYWYX" />
-      <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWordAndSearch" />
       <item itemvalue="JUnit.textSearchTest.test1" />
       <item itemvalue="JUnit.textSearchTest.test1 (1)" />
       <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWordAndSearch (1)" />
+      <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWords" />
+      <item itemvalue="TestNG.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWords" />
         <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWordAndSearch (1)" />
         <item itemvalue="JUnit.textSearchTest.test1 (1)" />
         <item itemvalue="JUnit.textSearchTest.test1" />
         <item itemvalue="JUnit.textSearchTest.TestGetAllEntityWordAndSearch" />
-        <item itemvalue="JUnit.documentTest.TestYWYX" />
       </list>
     </recent_temporary>
   </component>
