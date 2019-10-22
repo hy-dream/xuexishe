@@ -90,6 +90,7 @@ public class textSearchTest {
 
     @Test
     @DisplayName("获取所有的实体词列表")
+    @Tag("demo")
     @Order(0)
     void TestGetAllEntityWords(){
         JSONObject body=new JSONObject();
