@@ -127,11 +127,29 @@ public class textSearchTest {
     void TestGetAllEntityWords(){
         JSONObject body=new JSONObject();
         body.put("pageNo",1);
-        body.put("pageSize",600);
+        body.put("pageSize",200);
         body.put("queryStr","");
         body.put("superClassId","思想概念");
 
         given().log().all().contentType("application/json").body(body).when().post("/refining/rest/ont/pageIndividualByClass").
+                then().log().all().body("message",equalTo("success")).body("data.source",not(hasSize(0)));
+
+        JSONObject body1=new JSONObject();
+        body1.put("pageNo",2);
+        body1.put("pageSize",200);
+        body1.put("queryStr","");
+        body1.put("superClassId","思想概念");
+
+        given().log().all().contentType("application/json").body(body1).when().post("/refining/rest/ont/pageIndividualByClass").
+                then().log().all().body("message",equalTo("success")).body("data.source",not(hasSize(0)));
+
+        JSONObject body2=new JSONObject();
+        body2.put("pageNo",3);
+        body2.put("pageSize",200);
+        body2.put("queryStr","");
+        body2.put("superClassId","思想概念");
+
+        given().log().all().contentType("application/json").body(body2).when().post("/refining/rest/ont/pageIndividualByClass").
                 then().log().all().body("message",equalTo("success")).body("data.source",not(hasSize(0)));
     }
 }
