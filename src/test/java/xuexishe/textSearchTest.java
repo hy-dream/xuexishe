@@ -10,6 +10,7 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -57,7 +58,7 @@ public class textSearchTest {
      static List<String> getAllEntityWords(){
         JSONObject body=new JSONObject();
         body.put("pageNo",1);
-        body.put("pageSize",600);
+        body.put("pageSize",200);
         body.put("queryStr","");
         body.put("superClassId","思想概念");
 
@@ -65,8 +66,39 @@ public class textSearchTest {
                 then().extract().response().body().asString();
         //System.out.println(content);
         // body("statusCode",equalTo(200)).log().all().body("data.totalHits",equalTo(518));
-        List<String> nameList = (List<String>) JSONPath.read(content, "$.data.source[*].individualName");
-        return nameList;
+         List<String> nameList1 = (List<String>) JSONPath.read(content, "$.data.source[*].individualName");
+         //System.out.println(nameList1);
+
+         JSONObject body1=new JSONObject();
+         body1.put("pageNo",2);
+         body1.put("pageSize",200);
+         body1.put("queryStr","");
+         body1.put("superClassId","思想概念");
+
+         String content1=given().contentType("application/json").body(body1).when().post("/refining/rest/ont/pageIndividualByClass").
+                 then().extract().response().body().asString();
+         //System.out.println(content1);
+         // body("statusCode",equalTo(200)).log().all().body("data.totalHits",equalTo(518));
+         List<String> nameList2 = (List<String>) JSONPath.read(content1, "$.data.source[*].individualName");
+         //System.out.println(nameList2);
+
+         JSONObject body2=new JSONObject();
+         body2.put("pageNo",3);
+         body2.put("pageSize",200);
+         body2.put("queryStr","");
+         body2.put("superClassId","思想概念");
+
+         String content2=given().contentType("application/json").body(body2).when().post("/refining/rest/ont/pageIndividualByClass").
+                 then().extract().response().body().asString();
+         //System.out.println(content2);
+         // body("statusCode",equalTo(200)).log().all().body("data.totalHits",equalTo(518));
+         List<String> nameList3 = (List<String>) JSONPath.read(content2, "$.data.source[*].individualName");
+         //System.out.println(nameList3);
+
+        //System.out.println(nameList1.toString());
+        nameList1.addAll(nameList2);
+        nameList1.addAll(nameList3);
+        return nameList1;
     }
 
 
